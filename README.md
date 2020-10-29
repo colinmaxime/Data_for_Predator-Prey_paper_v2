@@ -1,2 +1,18 @@
 # Data_for_Predator-Prey_paper_v2
 Data used for the predator-prey JAS paper
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster/Analysis/more_variables/19members/compute_Ens_average_One_exp_Improved_More_var/Ens_member_ave_More_variables_test9_0138_Corrected_SW_solvar_faster_19mem_Big_array_v1.nc : This is the netcdf file containing most variables post-processed with NCL about the WRF control "free" run (test9, simu 0138). It is unfortunately too big to be uploaded with GitHub.
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/building_target_averaging_with_ncwa_v2.py : Here the Python script used to compute the target profiles for fixed-macrostate runs
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/targets/target_prof--ncwa_Times--time_mean--fld_mean--20day_file_mean--wrfout_d01_2007-08-0*_05:00:00--selected_var : The netcdf target files used as strong nudging targets
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/Analysis/target_profile_analysis/target_profile_analysis_v5_without_getvar.ncl : This is the NCL script to analyse the target profiles
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/Analysis/target_profile_analysis/C02_target_profile_analysis_without_getvar/stats_for_all_day_and_exp_growth_days_and_exp_decay_days.txt : Statistics and information on the target profiles
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/Analysis/target_profile_analysis/C02_target_profile_analysis_without_getvar/stats_for_all_day_and_exp_growth_days_and_exp_decay_days_v2.txt : Statistics and information on the target profiles
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/Analysis/target_profile_analysis/C02_target_profile_analysis_without_getvar/target_profiles_analysis_output_test9_0138_Corrected_SW_solvar_faster_BIS__v1.nc : Statistics and information on the target profiles
+
+test10_3D_With_strong_nudging/0158.6.6.8_Strong_nudging_first_tests/part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules/Analysis/Time_series_together/Time_series_different_variables_together_Easy_v7_for_paper.ncl : NCL script to create the plot for Figure 2: putting all time series together
