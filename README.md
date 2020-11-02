@@ -16,3 +16,22 @@ test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_pr
 test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster_BIS/compute_target_profiles/Analysis/target_profile_analysis/C02_target_profile_analysis_without_getvar/target_profiles_analysis_output_test9_0138_Corrected_SW_solvar_faster_BIS__v1.nc : Statistics and information on the target profiles
 
 test10_3D_With_strong_nudging/0158.6.6.8_Strong_nudging_first_tests/part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules/Analysis/Time_series_together/Time_series_different_variables_together_Easy_v7_for_paper.ncl : NCL script to create the plot for Figure 2: putting all time series together
+
+test9_3D_No_strong_nudging/0144_Restart_QVAPOR_Theta_based_on_sim0138/modifying_restart_files/change_all_file_names_back.py : Python script to rename original restart files so that WRF can use it as input
+
+test9_3D_No_strong_nudging/0144_Restart_QVAPOR_Theta_based_on_sim0138/modifying_restart_files/copy_and_change_wrf_restart_5.py : Python script to homogenise the restart files to feed them to WRF for the homogenisation experiments
+
+test9_3D_No_strong_nudging/0144_Restart_QVAPOR_Theta_based_on_sim0138/modifying_restart_files/pre_run_verification.py : Python script to homogenise the restart files to feed them to WRF for the homogenisation experiments
+
+test9_3D_No_strong_nudging/Ensemble_average/ensemble_averaging.py : Python script to compute the ensemble average over several realisations of the homogenisation experiments (i.e., several days)
+
+test9_3D_No_strong_nudging/Ensemble_average/19members/Average_and_std_error_of_the_mean/standard_deviation_of_hor_mean.py :  Script to compute mean and standard deviation over the ensemble members of a given experiment
+
+test9_3D_No_strong_nudging/Ensemble_average/19members/Average_and_std_error_of_the_mean/stddev_and_mean_method2/ensmean--wrfout_d01_QVAPOR_Theta_day1.nc : Netcdf files resulting from the ensemble mean computation for the experiment where Theta and Qvapor are homogenised
+
+test9_3D_No_strong_nudging/Ensemble_average/19members/Average_and_std_error_of_the_mean/stddev_and_mean_method2/ensstd--wrfout_d01_QVAPOR_Theta_day1.nc : Netcdf files resulting from the ensemble mean computation for the experiment where Theta and Qvapor are homogenised
+
+test10_3D_With_strong_nudging/0158.6.6.8_Strong_nudging_first_tests/part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules/Analysis/organisation_cold_pool_diagnostics/plot_organisation_cold_pool_diagnostics.ncl : Script and pictures of OLR snapshots showing instability evolving in time
+
+test10_3D_With_strong_nudging/0158.6.6.8_Strong_nudging_first_tests/part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules/Analysis/organisation_cold_pool_diagnostics/movies/plot_olr_big_array_part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules_num_day_01_num_output_*_v1.png : Script and pictures of OLR snapshots showing instability evolving in time
+
