@@ -35,3 +35,16 @@ test10_3D_With_strong_nudging/0158.6.6.8_Strong_nudging_first_tests/part1_init_v
 
 test10_3D_With_strong_nudging/0158.6.6.8_Strong_nudging_first_tests/part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules/Analysis/organisation_cold_pool_diagnostics/movies/plot_olr_big_array_part1_init_v46_On_tendencies_DJK_Up_to_lev54_All_4_var_40s_From_restart_Old_modules_num_day_01_num_output_*_v1.png : Script and pictures of OLR snapshots showing instability evolving in time
 
+Simple_stochastic_convection_model/03.3_Free_1000mem_Varying_VDAMP_Several_realisations_Data_output/Comparison_PP_WRF/comparison_PP_WRF_plot_v2.py : Python script to run the predator-prey model, and plot several figures comparing predator-prey model output and WRF output for sub-cloud layer humidity. This is what was used for Figure 4.
+
+Simple_stochastic_convection_model/03.3_Free_1000mem_Varying_VDAMP_Several_realisations_Data_output/Comparison_PP_WRF_for_CAPE_and_PW_together/comparison_PP_WRF_plot_for_CAPE_and_PW_together.py : Python script to run the predator-prey model, and plot several figures comparing predator-prey model output and WRF output for PW and CAPE. THis is what was used for Figure 5
+
+Simple_stochastic_convection_model/03.2_Free_1000mem_Varying_VDAMP_Several_realisations/conv_mod_pseudo_homog_Str_nudg_to_RCE.py : Python script to run the predator-prey model, and plot several figures for various alpha_damp values. This is what was used for the left-hand side of Figure 6
+
+Simple_stochastic_convection_model/16_No_stochastic_Free_1000mem_Varying_VDAMP/conv_mod_pseudo_homog_Str_nudg_to_RCE_multiplot.py : Python script to run the predator-prey model without stochastic terms, and plot several figures for various alpha_damp values. This is what was used for the right-hand side of Figure 6
+
+test10_3D_With_strong_nudging/0215_Strong_nudging_T_U_V_No_Homogenisation/ensemble_v1.tar.xz : List of important files to run the WRF simulations with strong nudging
+
+test9_3D_No_strong_nudging/0138_Corrected_SW_solvar_faster/part1_init.tar.xz : List of important files to run the WRF control 'free' simulations
+
+test9_3D_No_strong_nudging/0144_Restart_QVAPOR_Theta_based_on_sim0138/ensemble_v1.tar.xz : List of important files to run the WRF homogenisation experiments
